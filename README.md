@@ -1,8 +1,10 @@
-# TRABAJO N°3 - MODELOS AVANZADOS
+# TRABAJO N°3
+
+**Curso:** Introducción a Ciencia de Datos y Machine Learning con Python
 
 ## Descripción del Proyecto
 
-Este trabajo analiza los factores macroeconómicos que influyen en las expectativas económicas en Perú, determinando si son optimistas (>50) o pesimistas (≤50). Se construye sobre el trabajo anterior donde se compararon modelos OLS y Logit, expandiendo el análisis con nuevas variables, técnicas de reducción de dimensionalidad y modelos de clasificación avanzados.
+Nuestro trabajo analiza los factores macroeconómicos que influyen en las expectativas económicas en Perú, determinando si son optimistas (>50) o pesimistas (≤50). Buscamos expandir el análisis con nuevas variables, técnicas de reducción de dimensionalidad y modelos de clasificación avanzados.
 
 ## Objetivos
 
@@ -130,20 +132,13 @@ pip install xgboost imbalanced-learn
 - Los modelos de ensemble (Random Forest y XGBoost) superan significativamente al modelo lineal
 - La estructura económica peruana presenta patrones no lineales complejos
 - El análisis de costos permite decisiones más realistas en contexto económico
-- El modelo final proporciona una herramienta robusta para predecir expectativas económicas
+- Consideramos que el modelo final proporciona una herramienta robusta para predecir expectativas económicas
 
 ## Archivos del Proyecto
 
 - `TRABAJO_3.ipynb`: Notebook principal con análisis completo
 - `dataset_bcrp_limpio.csv`: Dataset utilizado
 - `README.md`: Este documento
+- `PRESENTACIÓN_T3.PDF`: Diapositivas empleadas en la exposición
 
 ---
-
-**Grupo 1:**
-- Abad Aniceto Anguiela Brilletth
-- Meyli Yanely Robledo Jimenez
-- Alberto Sebastian Pizarro Otero
-- Damaris Belen Navarro Lozada
-
-**Curso:** Introducción a Ciencia de Datos y Machine Learning con Python
